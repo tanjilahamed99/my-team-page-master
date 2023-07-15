@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 200px;
+    width: 100%;
+}
+.head-tittle{
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+.desc h3{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 86px 0 10px 0;
+}
+.desc p{
+    color: black;
+    font-size: 1.2rem;
+    width: 50%;
+}
+.tittle, .desc{
+    width: 50%;
+}
