@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
 }
-.head{
+
+.head
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,23 +13,85 @@
     height: 200px;
     width: 100%;
 }
-.head-tittle{
+
+.head-tittle
+{
     color: black;
     font-weight: bolder;
     font-size: 2rem;
     text-align: center;
 }
-.desc h3{
+
+.desc h3
+{
     color: black;
     font-weight: bolder;
     font-size: 1.3rem;
     margin: 86px 0 10px 0;
 }
-.desc p{
+
+.desc p
+{
     color: black;
     font-size: 1.2rem;
     width: 50%;
 }
-.tittle, .desc{
+
+.tittle,
+.desc
+{
     width: 50%;
+}
+
+/* iamge container */
+#iamge-1
+{
+    grid-area: image-1;
+}
+
+#iamge-2
+{
+    grid-area: image-2;
+}
+
+#iamge-3
+{
+    grid-area: image-3;
+}
+
+#iamge-4
+{
+    grid-area: image-4;
+}
+
+#iamge-5
+{
+    grid-area: image-5;
+}
+
+#iamge-6
+{
+    grid-area: image-6;
+}
+
+.iamge-container
+{
+    display: grid;
+    grid-template-areas:
+        "image-1 image-2 image-3"
+        "image-4 image-5 image-6"
+    ;
+    gap: 10px;
+    margin: 50px 0 0 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img
+{
+    width: 60%;
+    border-radius: 10px;
+}
+#image-2, #image-5{
+    margin-top: 150px;
 }
